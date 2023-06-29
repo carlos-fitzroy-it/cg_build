@@ -1,0 +1,23 @@
+{
+  "name": "cg-deployment-management-client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@aws-sdk/client-secrets-manager": "^3.354.0",
+    "bootstrap": "^5.3.0",
+    "list-git-branches": "^1.0.0",
+    "next": "13.4.4",
+    "next-auth": "^4.22.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sass": "^1.62.1",
+    "simple-git": "^3.19.0",
+    "swr": "^2.1.5"
+  }
+}
